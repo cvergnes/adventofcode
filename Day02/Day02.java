@@ -4,7 +4,7 @@ import java.nio.file.*;
 
 public class Day02 {
     public static void main(String[] args) throws Exception {
-        List<String> lines = Files.readAllLines(Path.of("Day02.input"));
+        List<String> lines = Files.readAllLines(Path.of("Day02/Day02.input"));
         String[] ranges = lines.get(0).split(",");  
         long counter = 0;
         for (String range : ranges) {
